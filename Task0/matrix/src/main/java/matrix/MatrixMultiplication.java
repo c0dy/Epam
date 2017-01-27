@@ -10,13 +10,13 @@ package matrix;
 public class MatrixMultiplication {
     public static void main(String[] args) {
 
-        int n = 3; // The number of rows of the first matrix (matrixA)
-        int m = 3; // The number of cols of the first matrix == the number of rows of the second matrix (matrixB) AND >= n
-        int k = 3; // The number of cols of the second matrix (matrixB)
+       private int n = 3; // The number of rows of the first matrix (matrixA)
+       private int m = 3; // The number of cols of the first matrix == the number of rows of the second matrix (matrixB) AND >= n
+       private int k = 3; // The number of cols of the second matrix (matrixB)
 
-        int[][] matrixA = new int[n][];
-        int[][] matrixB = new int[m][];
-        int[][] result  = new int[n][];
+       private int[][] matrixA = new int[n][];
+       private int[][] matrixB = new int[m][];
+       private int[][] result  = new int[n][];
 
         for(int i = 0; i < result.length; i++) result[i] = new int[k];
 
